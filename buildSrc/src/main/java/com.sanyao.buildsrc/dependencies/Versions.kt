@@ -37,6 +37,10 @@ internal object Versions {
 
     const val hilt="2.40.5"
 
+    const val mmkv="1.2.11"
+    const val timber="4.7.1"
+
+
 
 
 

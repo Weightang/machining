@@ -38,13 +38,15 @@ internal val kotlinTestDependencies = listOf(
 internal val dataDependencies = listOf(
     Dependencies.roomRuntime,
     Dependencies.roomKtx,
-    Dependencies.androidPagingRuntime
+    Dependencies.androidPagingRuntime,
+    Dependencies.mmkv
 )
 
 internal val coreAndroidDependencies = listOf(
     Dependencies.androidMultiDex,
     Dependencies.androidCoreKtx,
     Dependencies.androidAppCompat,
+
 )
 
 internal val coreAndroidUiDependencies = listOf(
@@ -69,6 +71,7 @@ internal val networkingDependencies = listOf(
     Dependencies.okHttpLoggingInterceptor,
     Dependencies.moshi,
     Dependencies.converterMoshi,
+    Dependencies.timber
 )
 
 internal val junit5TestDependencies = listOf(

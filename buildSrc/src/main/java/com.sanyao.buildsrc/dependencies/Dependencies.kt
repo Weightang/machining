@@ -58,6 +58,7 @@ object Dependencies {
     const val moshi = "com.squareup.moshi:moshi:${Versions.moshiVersion}"
     const val converterMoshi = "com.squareup.retrofit2:converter-moshi:${Versions.retrofitVersion}"
     const val moshiCompiler = "com.squareup.moshi:moshi-kotlin-codegen:${Versions.moshiVersion}"
+    const val timber = "com.jakewharton.timber:timber:${Versions.timber}"
 
     const val coroutinesCore =
         "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}"
@@ -86,5 +87,5 @@ object Dependencies {
     const val hiltAndroidKapt = "com.google.dagger:hilt-android-compiler:${Versions.hilt}"
 //    const val hiltAndroidXKapt = "androidx.hilt:hilt-compiler:1.0.0"
 
-
+    const val mmkv ="com.tencent:mmkv:${Versions.mmkv}"
 }

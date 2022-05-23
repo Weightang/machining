@@ -43,6 +43,8 @@ android {
     }
     buildFeatures {
         compose = true
+        // Disable unused AGP features
+        buildConfig =true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = ProjectConfigs.kotlinCompilerExtensionVersion
@@ -64,7 +66,7 @@ android {
 }
 
 dependencies {
-
+    addComposeDebugDependencies()
     addComposeOfficialDependencies()
     addCoreAndroidUiDependencies()
     addThirdPartyUiDependencies()
@@ -83,6 +85,7 @@ dependencies {
 
     addAndroidInstrumentationTestsDependencies()
     addBiometricDependency()
+    addGoogleAccompanist()
 
 
 

@@ -93,3 +93,10 @@ fun  DependencyHandler.addHiltAndroidDependency(){
     add("kapt", Dependencies.hiltAndroidKapt)
     add("implementation",Dependencies.hiltAndroid)
 }
+
+
+fun DependencyHandler.addGoogleAccompanist(){
+    googleAccompanist.forEach{
+        add("implementation",it)
+    }
+}

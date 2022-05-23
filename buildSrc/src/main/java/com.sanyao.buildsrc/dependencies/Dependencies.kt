@@ -37,6 +37,16 @@ object Dependencies {
     const val composeUiTestJunit4 = "androidx.compose.ui:ui-test-junit4:${Versions.compose}"
     const val composeUiTestManifest = "androidx.compose.ui:ui-test-manifest:${Versions.compose}"
 
+    //约束布局
+    const val constraintlayoutCompose ="androidx.constraintlayout:constraintlayout-compose:${Versions.constraintComposeVersion}"
+
+    // compose 组件
+    const val  systemuicontroller ="com.google.accompanist:accompanist-systemuicontroller:${Versions.systemuicontroller}"
+
+
+
+
+
     /**
      * Custom fling behaviour
      * refer to https://github.com/iamjosephmj/flinger for more insights on the library
@@ -87,5 +97,6 @@ object Dependencies {
     const val hiltAndroidKapt = "com.google.dagger:hilt-android-compiler:${Versions.hilt}"
 //    const val hiltAndroidXKapt = "androidx.hilt:hilt-compiler:1.0.0"
 
+    //
     const val mmkv ="com.tencent:mmkv:${Versions.mmkv}"
 }

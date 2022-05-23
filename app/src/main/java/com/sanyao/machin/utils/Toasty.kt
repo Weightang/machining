@@ -11,6 +11,7 @@ import androidx.annotation.AnyThread
 import androidx.annotation.MainThread
 import androidx.annotation.StringRes
 import com.mapgis.baselib.widget.ToastView
+import com.sanyao.machin.utils.AppUtils
 
 import java.lang.ref.WeakReference
 

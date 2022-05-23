@@ -9,7 +9,7 @@ class ThreadAwareDebugTree : DebugTree() {
 
         newTag?.let {
             val threadName = Thread.currentThread().name
-            newTag = "<MAPGIS_DEBUG><$threadName> $tag"
+            newTag = "<SANYAO_DEBUG><$threadName> $tag"
         }
 
         super.log(priority, newTag, message, t)

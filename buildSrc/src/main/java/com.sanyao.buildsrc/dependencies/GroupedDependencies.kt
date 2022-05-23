@@ -1,5 +1,6 @@
 internal val composeOfficialDependencies = listOf(
     Dependencies.composeUi,
+    Dependencies.constraintlayoutCompose,
     Dependencies.composeUiTooling,
     Dependencies.composeMaterial,
     Dependencies.composeMaterial3,
@@ -27,7 +28,8 @@ internal val composeDebugDependencies = listOf(
 internal val kotlinDependencies = listOf(
     Dependencies.kotlinStandardLibraryJdk8,
     Dependencies.coroutinesCore,
-    Dependencies.coroutinesAndroid
+    Dependencies.coroutinesAndroid,
+    Dependencies.kotlinReflect
 )
 
 internal val kotlinTestDependencies = listOf(
@@ -94,4 +96,9 @@ internal val thirdPartyUiDependencies = listOf(
     Dependencies.coilCompose,
     Dependencies.lottie,
     Dependencies.composeLottie
+)
+
+internal val googleAccompanist= listOf(
+    Dependencies.systemuicontroller
+
 )

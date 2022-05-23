@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Machining</string>
+    <string name="home">首页</string>
+    <string name="category">添加</string>
+    <string name="collection">工具</string>
+    <string name="profile">我的</string>
 </resources>

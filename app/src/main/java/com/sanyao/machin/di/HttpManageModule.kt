@@ -1,4 +1,5 @@
 package com.sanyao.machin.di
+import com.mapgis.baselib.moshiFactories.MoshiUtils
 import com.sanyao.machin.api.ApiUrl
 import com.sanyao.machin.constant.GlobalValues
 import dagger.Module

@@ -1,4 +1,4 @@
-package com.mapgis.baselib.utils
+package com.sanyao.machin.utils
 
 import android.content.Context
 import android.graphics.Color
@@ -9,10 +9,11 @@ import android.os.Handler
 import android.os.Looper
 import android.os.MessageQueue
 import androidx.annotation.ChecksSdkIntAtLeast
-import com.mapgis.baselib.BuildConfig
-import com.mapgis.baselib.SystemServices
 
+import com.sanyao.machin.BuildConfig
+import com.sanyao.machin.SystemServices
 import timber.log.Timber
+
 import java.text.SimpleDateFormat
 import java.util.*
 
